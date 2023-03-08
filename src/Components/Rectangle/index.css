@@ -1,0 +1,25 @@
+.rectangle {
+  display: flex;
+  width: 288px;
+  align-items: center;
+}
+
+.rectangle img {
+  width: 20px;
+  margin: 12px;
+}
+
+.rectangle span {
+  width: 100%;
+}
+
+.rectangle strong {
+  display: flex;
+  text-align: end;
+  width: 100%;
+  padding-right: 10px;
+}
+
+.rectangle strong > span {
+  opacity: 0.5;
+}
