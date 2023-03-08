@@ -7,7 +7,7 @@ import iconVisual from '../../assets/icon-visual.svg';
 
 export default function Summary() {
   return (
-    <div>
+    <main>
       <h2>Sumário</h2>
       <Rectangle class="rectangle" icon={iconReaction} type={'Reaction'} number={80} />
       <Rectangle icon={iconMemory} type={'Memory'} number={92} />
@@ -15,6 +15,6 @@ export default function Summary() {
       <Rectangle icon={iconVisual} type={'Visual'} number={73} />
 
       <button>Continue</button>
-    </div>
+    </main>
   );
 }
