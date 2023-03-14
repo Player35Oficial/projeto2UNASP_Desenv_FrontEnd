@@ -4,10 +4,11 @@ import iconReaction from '../../assets/icon-reaction.svg';
 import iconMemory from '../../assets/icon-memory.svg';
 import iconVerbal from '../../assets/icon-verbal.svg';
 import iconVisual from '../../assets/icon-visual.svg';
+import './index.css';
 
 export default function Summary() {
   return (
-    <div>
+    <div className="summary">
       <h2>Sumário</h2>
       <Rectangle class="rectangle" icon={iconReaction} type={'Reaction'} number={80} />
       <Rectangle icon={iconMemory} type={'Memory'} number={92} />

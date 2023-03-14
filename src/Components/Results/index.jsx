@@ -1,14 +1,15 @@
-import React from "react";
+import React from 'react';
+import './Index.css';
 
 export default function Results() {
   return (
-    <section>
+    <section className="results">
       <h2>Your Result</h2>
 
       <div>
         <strong>76</strong>
+        <span>of 100</span>
       </div>
-      <span>of 100</span>
 
       <div>
         <strong>Great</strong>

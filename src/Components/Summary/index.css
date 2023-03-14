@@ -1,0 +1,5 @@
+.summary {
+  padding: 38px 40px;
+  display: flex;
+  flex-direction: column;
+}
