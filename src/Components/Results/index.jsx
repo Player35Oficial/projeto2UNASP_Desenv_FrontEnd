@@ -6,7 +6,7 @@ export default function Results() {
     <section className="results">
       <h2>Your Result</h2>
 
-      <div>
+      <div className="score">
         <strong>76</strong>
         <span>of 100</span>
       </div>

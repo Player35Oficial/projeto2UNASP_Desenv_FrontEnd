@@ -2,6 +2,7 @@
   display: flex;
   width: 288px;
   align-items: center;
+  justify-content: space-between;
 }
 
 .rectangle img {
@@ -9,17 +10,15 @@
   margin: 12px;
 }
 
-.rectangle span {
-  width: 100%;
-}
-
-.rectangle strong {
+.rectangle div {
   display: flex;
-  text-align: end;
-  width: 100%;
-  padding-right: 10px;
+  align-items: center;
 }
 
 .rectangle strong > span {
   opacity: 0.5;
+}
+
+.rectangle strong[text] {
+  color: red;
 }
