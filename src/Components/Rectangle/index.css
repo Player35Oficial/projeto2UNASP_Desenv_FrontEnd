@@ -1,8 +1,12 @@
 .rectangle {
   display: flex;
   width: 288px;
+
+  border-radius: 15px;
+
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 1rem;
 }
 
 .rectangle img {
@@ -21,4 +25,28 @@
 
 .rectangle strong[text] {
   color: red;
+}
+
+.red {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #ff5555;
+}
+
+.yellow {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #ffb21e;
+}
+
+.green {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00bb8f;
+}
+
+.blue {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125d6;
+}
+
+.rectangle img {
+  margin-left: 0.5rem;
+}
+
+.rectangle span {
+  margin-right: 1rem;
 }

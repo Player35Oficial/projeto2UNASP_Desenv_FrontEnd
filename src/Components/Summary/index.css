@@ -1,5 +1,14 @@
 .summary {
-  padding: 38px 40px;
+  padding: 2.375rem 2.5rem;
   display: flex;
   flex-direction: column;
+  width: 368px;
+}
+
+.summary h2 {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  color: #303b59;
+
+  margin-bottom: 1.875rem;
 }

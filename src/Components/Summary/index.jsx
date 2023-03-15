@@ -10,10 +10,10 @@ export default function Summary() {
   return (
     <main className="summary">
       <h2>Sumário</h2>
-      <Rectangle class="rectangle" icon={iconReaction} type={'Reaction'} number={80} />
-      <Rectangle icon={iconMemory} type={'Memory'} number={92} />
-      <Rectangle icon={iconVerbal} type={'Verbal'} number={61} />
-      <Rectangle icon={iconVisual} type={'Visual'} number={73} />
+      <Rectangle class="rectangle" icon={iconReaction} type={'Reaction'} number={80} color="red" />
+      <Rectangle class="rectangle" icon={iconMemory} type={'Memory'} number={92} color="yellow" />
+      <Rectangle class="rectangle" icon={iconVerbal} type={'Verbal'} number={61} color="green" />
+      <Rectangle class="rectangle" icon={iconVisual} type={'Visual'} number={73} color="blue" />
 
       <button>Continue</button>
     </main>

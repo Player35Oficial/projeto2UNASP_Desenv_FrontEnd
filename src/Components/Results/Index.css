@@ -1,12 +1,13 @@
 .results {
   background: linear-gradient(180deg, #7755ff 0%, #6943ff 0.01%, #2f2ce9 100%);
-  border-radius: 32px;
+  border-radius: 32px 0 0 32px;
   text-align: center;
   padding: 2.375rem 3.375rem;
   color: #cac9ff;
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 368px;
 }
 
 .results h2 {
