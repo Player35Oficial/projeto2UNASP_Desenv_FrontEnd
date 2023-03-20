@@ -1,3 +1,23 @@
+.red {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #ff5555;
+  color: #ff5555;
+}
+
+.yellow {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #ffb21e;
+  color: #ffb21e;
+}
+
+.green {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00bb8f;
+  color: #00bb8f;
+}
+
+.blue {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125d6;
+  color: #1125d6;
+}
+
 .rectangle {
   display: flex;
   width: 288px;
@@ -17,30 +37,18 @@
 .rectangle div {
   display: flex;
   align-items: center;
+  text-align: start;
+  font-weight: 500;
+}
+
+.rectangle strong {
+  color: #303b59;
+  font-weight: 600;
 }
 
 .rectangle strong > span {
   opacity: 0.5;
-}
-
-.rectangle strong[text] {
-  color: red;
-}
-
-.red {
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #ff5555;
-}
-
-.yellow {
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #ffb21e;
-}
-
-.green {
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00bb8f;
-}
-
-.blue {
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125d6;
+  margin-left: 0.5rem;
 }
 
 .rectangle img {

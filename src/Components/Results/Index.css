@@ -8,6 +8,7 @@
   flex-direction: column;
   align-items: center;
   max-width: 368px;
+  height: 512px;
 }
 
 .results h2 {

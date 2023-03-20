@@ -12,3 +12,24 @@
 
   margin-bottom: 1.875rem;
 }
+
+.summary .button {
+  height: 56px;
+  width: auto;
+
+  border-radius: 8rem;
+  border-style: none;
+
+  background-color: #303b59;
+  color: #fff;
+  font-weight: 700;
+
+  margin-top: 36px;
+  transition: 0.2s;
+}
+
+.summary .button:hover {
+  background: linear-gradient(180deg, #7755ff 0%, #6943ff 0.01%, #2f2ce9 100%);
+  transition: 0.2s;
+  cursor: pointer;
+}
